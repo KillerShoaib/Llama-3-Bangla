@@ -7,6 +7,7 @@
 
 # Table of Contents
 * **Model Weights**
+* **Colab Inferenc Notebook.**
 * **Model Details**
 * **Pros & Cons**
 * **Run the Model**
@@ -15,10 +16,17 @@
 
 
 
+
 # Model weights
 * [**KillerShoaib/llama-3-8b-bangla-lora**](https://huggingface.co/KillerShoaib/llama-3-8b-bangla-lora)
 * [**KillerShoaib/llama-3-8b-bangla-4bit**](https://huggingface.co/KillerShoaib/llama-3-8b-bangla-4bit)
 * [**KillerShoaib/llama-3-8b-bangla-GGUF-Q4_K_M**](https://huggingface.co/KillerShoaib/llama-3-8b-bangla-GGUF-Q4_K_M)
+
+# Colab Inference Notebook.
+
+- `Google Colab Notebook` - [**Llama-3 8b Bangla Inference Script**](https://colab.research.google.com/drive/1jZaDmmamOoFiy-ZYRlbfwU0HaP3S48ER?usp=sharing)
+
+**Open the notebook and play with it.**
 
 
 # Model Details
@@ -177,4 +185,3 @@ tokenizer.batch_decode(outputs)
 - I was using Colab and Kaggle back & forth. I trained the model for **2 epochs (~80hrs)**. I've to finetuned the model in such a way that my script always ran **less than 12hrs**.
 - I've utilized [**Weights & Biases**](https://wandb.ai/) for tracking and saving the model checkpoint.
 - In that script, I've shown how one can finetune the llama-3 8b model in **Kaggle** or **Colab** with incremental training using `max_steps` instead of `num_train_epochs` and continue the training from previous checkpoints, instead of training all at once.
-
