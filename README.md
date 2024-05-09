@@ -168,7 +168,7 @@ tokenizer.batch_decode(outputs)
 
 # Finetuning Script
 * **Original Unsloth Script: [Alpaca + Llama-3 8b full example](https://colab.research.google.com/drive/135ced7oHytdxu3N2DNe1Z0kqjyYIkDXp?usp=sharing)**
-* **My Own Custom Script: [Llama-3 8b Finetuing Guide on Bangla Alpaca Dataset](#)**
+* **My Own Custom Script: [Llama-3 8b Finetuing Guide on Bangla Alpaca Dataset](https://github.com/KillerShoaib/Llama-3-Bangla/blob/main/Llama_3_8b_Finetuing_Guide_on_Bangla_Alpaca_Dataset.ipynb)**
 
 
 
